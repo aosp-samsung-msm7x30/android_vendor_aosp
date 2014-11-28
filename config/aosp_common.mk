@@ -12,6 +12,11 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.samaosp.version=$(AOSP_VERSION)
 
+# SuperSU
+PRODUCT_COPY_FILES += \
+     vendor/aosp/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+     vendor/aosp/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+
 # Extra packages
 PRODUCT_PACKAGES += \
     Launcher3 \
