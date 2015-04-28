@@ -1,0 +1,2 @@
+add_lunch_combo aosp_ancora-userdebug
+add_lunch_combo aosp_ariesve-userdebug
