@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for Samsung Galaxy S+
-$(call inherit-product-if-exists, device/samsung/ariesve/full_ancora.mk)
+$(call inherit-product-if-exists, device/samsung/ariesve/full_ariesve.mk)
 
 # Inherit common device configuration for Samsung msm7x30 AOSP Project 
 $(call inherit-product, vendor/aosp/config/aosp_common.mk)
