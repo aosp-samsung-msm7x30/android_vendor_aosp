@@ -1,7 +1,7 @@
 PRODUCT_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
 #AOSP Version
-AOSP_VERSION := Alpha 1
+AOSP_VERSION := Alpha-1
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.samaosp.version=$(AOSP_VERSION)
