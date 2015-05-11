@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := ariesve
 
 # Setup device configuration
 PRODUCT_NAME := aosp_ariesve
-PRODUCT_DEVICE := ancora
+PRODUCT_DEVICE := ariesve
 PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I8150
