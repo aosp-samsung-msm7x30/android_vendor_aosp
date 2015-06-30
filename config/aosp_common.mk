@@ -1,8 +1,14 @@
 PRODUCT_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
-#AOSP Version
-AOSP_VERSION := Beta-1
+# AOSP VERSION
+AOSP_RELEASE = true
+AOSP_VERSION_MAJOR = LP
+AOSP_VERSION_MINOR = Beta-1
+ifeq ($(AOSP_RELEASE),true)
+    AOSP_VERSION := $(AOSP_VERSION_MAJOR).$(AOSP_VERSION_MINOR)-$(shell date -u +%Y%m%d)
+endif
 
+# AOSP statistics identity
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.samaosp.version=$(AOSP_VERSION)
 
